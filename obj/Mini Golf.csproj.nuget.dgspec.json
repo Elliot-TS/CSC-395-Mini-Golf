@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/elliots/Documents/Elliot Swaim/Education/2023-2024 (Junior)/Spring Semester/Game Development/Mini Golf/Mini Golf.csproj": {}
+  },
+  "projects": {
+    "/home/elliots/Documents/Elliot Swaim/Education/2023-2024 (Junior)/Spring Semester/Game Development/Mini Golf/Mini Golf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/elliots/Documents/Elliot Swaim/Education/2023-2024 (Junior)/Spring Semester/Game Development/Mini Golf/Mini Golf.csproj",
+        "projectName": "Mini Golf",
+        "projectPath": "/home/elliots/Documents/Elliot Swaim/Education/2023-2024 (Junior)/Spring Semester/Game Development/Mini Golf/Mini Golf.csproj",
+        "packagesPath": "/home/elliots/.nuget/packages/",
+        "outputPath": "/home/elliots/Documents/Elliot Swaim/Education/2023-2024 (Junior)/Spring Semester/Game Development/Mini Golf/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/elliots/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            },
+            "MonoGame.Extended.Collisions": {
+              "target": "Package",
+              "version": "[3.8.0, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.1.303, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.27, 6.0.27]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.27, 6.0.27]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/elliots/.dotnet/sdk/8.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
